@@ -19,7 +19,7 @@ import org.springframework.web.server.ResponseStatusException;
 
 @RestController
 @RequestMapping("/api/todos")
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin("https://harrisonmk.github.io")
 public class TarefaControle {
 
     @Autowired
